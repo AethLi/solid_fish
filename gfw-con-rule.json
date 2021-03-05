@@ -1,0 +1,26 @@
+[
+    {
+      "port": "0-65535",
+      "outboundTag": "proxy",
+      "domain": [
+        "curseforge.com",
+        "cloudflare.com",
+        "apkmirror.com",
+        "jetbrain.com"
+      ]
+    },
+    {
+      "outboundTag": "proxy",
+      "ip": [
+        "geoip:telegram"
+      ],
+      "domain": [
+        "geosite:gfw",
+        "geosite:greatfire"
+      ]
+    },
+    {
+      "port": "0-65535",
+      "outboundTag": "direct"
+    }
+  ]
